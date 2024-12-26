@@ -71,7 +71,7 @@ class HighwayEnvironment:
         os.system(f"netconvert -c {self.base_dir}/highway.netcfg")
         
     def generate_route_file(self, 
-                            highway_flow=1800,  # vehicles per hour
+                            highway_flow=7600,  # vehicles per hour
                             ramp_flow=600):     # vehicles per hour
         """Generate route file with traffic flows"""
         with open(self.base_dir / "routes.rou.xml", "w") as routefile:

@@ -186,3 +186,7 @@ class RampMeterEnv:
         self._set_traffic_light(TrafficLightPhase.RED)
         
         return self._get_state()
+
+    def close(self):
+        """Close the TraCI connection"""
+        traci.close()
