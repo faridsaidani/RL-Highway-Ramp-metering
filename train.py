@@ -49,7 +49,7 @@ def run_training(gui, pid, lock):
     )
     
     # Train the agent
-    agent.train(env, n_episodes=150, pid=pid, lock=lock)
+    agent.train(env, n_episodes=500, pid=pid, lock=lock)
     
     # Save the trained agent
     agent.save(f'models/q_learning_agent_{pid}.pkl')

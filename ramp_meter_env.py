@@ -126,7 +126,7 @@ class RampMeterEnv:
         """
         highway_speed = state[0]
         ramp_queue = state[1]
-        ramp_wait = state[3]
+        ramp_wait = state[2]
         
         # Base rewards
         speed_reward = highway_speed
