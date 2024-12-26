@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <edges>
+        <edge id="highway1" from="start" to="ramp_end" numLanes="3" speed="27.78" />
+        <edge id="highway2" from="ramp_end" to="end" numLanes="3" speed="27.78" />
+        <edge id="ramp" from="ramp_start" to="ramp_end" numLanes="1" speed="16.67" />
+    </edges>

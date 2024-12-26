@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="30"/>
+
+    <flow id="highway_flow" type="car" begin="0" end="3600" vehsPerHour="1800">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow" type="car" begin="0" end="3600" vehsPerHour="600">
+        <route edges="ramp highway2"/>
+    </flow>
+</routes>

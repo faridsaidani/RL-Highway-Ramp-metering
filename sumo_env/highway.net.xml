@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-26 07:07:59 by Eclipse SUMO netconvert Version 1.21.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="sumo_env/nodes.nod.xml"/>
+        <edge-files value="sumo_env/edges.edg.xml"/>
+        <connection-files value="sumo_env/connections.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumo_env/highway.net.xml"/>
+    </output>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,100.00" convBoundary="0.00,0.00,1000.00,100.00" origBoundary="0.00,-100.00,1000.00,0.00" projParameter="!"/>
+
+    <edge id=":ramp_end_0" function="internal">
+        <lane id=":ramp_end_0_0" index="0" speed="9.11" length="7.49" shape="490.36,88.10 492.21,89.80 493.87,91.02 495.32,91.76 496.58,92.00"/>
+    </edge>
+    <edge id=":ramp_end_1" function="internal">
+        <lane id=":ramp_end_1_0" index="0" speed="27.78" length="7.84" shape="488.74,92.00 496.58,92.00"/>
+        <lane id=":ramp_end_1_1" index="1" speed="27.78" length="7.84" shape="488.74,95.20 496.58,95.20"/>
+        <lane id=":ramp_end_1_2" index="2" speed="27.78" length="7.84" shape="488.74,98.40 496.58,98.40"/>
+    </edge>
+
+    <edge id="highway1" from="start" to="ramp_end" priority="-1">
+        <lane id="highway1_0" index="0" speed="27.78" length="488.74" shape="0.00,92.00 488.74,92.00"/>
+        <lane id="highway1_1" index="1" speed="27.78" length="488.74" shape="0.00,95.20 488.74,95.20"/>
+        <lane id="highway1_2" index="2" speed="27.78" length="488.74" shape="0.00,98.40 488.74,98.40"/>
+    </edge>
+    <edge id="highway2" from="ramp_end" to="end" priority="-1">
+        <lane id="highway2_0" index="0" speed="27.78" length="503.42" shape="496.58,92.00 1000.00,92.00"/>
+        <lane id="highway2_1" index="1" speed="27.78" length="503.42" shape="496.58,95.20 1000.00,95.20"/>
+        <lane id="highway2_2" index="2" speed="27.78" length="503.42" shape="496.58,98.40 1000.00,98.40"/>
+    </edge>
+    <edge id="ramp" from="ramp_start" to="ramp_end" priority="-1">
+        <lane id="ramp_0" index="0" speed="16.67" length="126.19" shape="401.13,-1.13 490.36,88.10"/>
+    </edge>
+
+    <tlLogic id="ramp_end" type="actuated" programID="0" offset="0">
+        <phase duration="10" state="GGGG"/>
+        <phase duration="2" state="yGGG"/>
+        <phase duration="10" state="rGGG"/>
+    </tlLogic>
+
+    <junction id="end" type="dead_end" x="1000.00" y="100.00" incLanes="highway2_0 highway2_1 highway2_2" intLanes="" shape="1000.00,90.40 1000.00,100.00"/>
+    <junction id="ramp_end" type="traffic_light" x="500.00" y="100.00" incLanes="ramp_0 highway1_0 highway1_1 highway1_2" intLanes=":ramp_end_0_0 :ramp_end_1_0 :ramp_end_1_1 :ramp_end_1_2" shape="496.58,100.00 496.58,90.40 495.28,90.02 494.48,89.54 493.58,88.87 492.59,88.02 491.49,86.97 489.23,89.23 489.70,89.88 489.69,90.11 489.53,90.27 489.22,90.37 488.74,90.40 488.74,100.00">
+        <request index="0" response="1110" foes="1110" cont="0"/>
+        <request index="1" response="0000" foes="0001" cont="0"/>
+        <request index="2" response="0000" foes="0001" cont="0"/>
+        <request index="3" response="0000" foes="0001" cont="0"/>
+    </junction>
+    <junction id="ramp_start" type="dead_end" x="400.00" y="0.00" incLanes="" intLanes="" shape="400.00,-0.00 402.26,-2.26"/>
+    <junction id="start" type="dead_end" x="0.00" y="100.00" incLanes="" intLanes="" shape="0.00,100.00 0.00,90.40"/>
+
+    <connection from="highway1" to="highway2" fromLane="0" toLane="0" via=":ramp_end_1_0" tl="ramp_end" linkIndex="1" dir="s" state="O"/>
+    <connection from="highway1" to="highway2" fromLane="1" toLane="1" via=":ramp_end_1_1" tl="ramp_end" linkIndex="2" dir="s" state="O"/>
+    <connection from="highway1" to="highway2" fromLane="2" toLane="2" via=":ramp_end_1_2" tl="ramp_end" linkIndex="3" dir="s" state="O"/>
+    <connection from="ramp" to="highway2" fromLane="0" toLane="0" via=":ramp_end_0_0" tl="ramp_end" linkIndex="0" dir="r" state="o"/>
+
+    <connection from=":ramp_end_0" to="highway2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":ramp_end_1" to="highway2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":ramp_end_1" to="highway2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":ramp_end_1" to="highway2" fromLane="2" toLane="2" dir="s" state="M"/>
+
+</net>

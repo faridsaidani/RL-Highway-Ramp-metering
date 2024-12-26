@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+    <connection from="highway1" to="highway2"/>
+    <connection from="ramp" to="highway2" via="ramp_end"/>
+</connections>

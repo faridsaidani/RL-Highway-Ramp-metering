@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <input>
+            <net-file value="highway.net.xml"/>
+            <route-files value="routes.rou.xml"/>
+            <tlLogic id="ramp_tl" type="actuated">
+                <phase duration="1" state="GGGG"/>
+                <phase duration="1"  state="GGGy"/>
+                <phase duration="1" state="GGGr"/>
+            </tlLogic>
+        </input>
+        <time>
+            <begin value="0"/>
+            <end value="3600"/>
+        </time>
+        <report>
+            <verbose value="false"/>
+            <no-step-log value="true"/>
+        </report>
+    </configuration>
