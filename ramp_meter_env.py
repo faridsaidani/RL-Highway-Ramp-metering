@@ -133,9 +133,9 @@ class RampMeterEnv:
         collision_penalty = -10.0 if traci.simulation.getCollisions() else 0
         emergency_braking_penalty = -0.6 if traci.simulation.getEmergencyStoppingVehiclesNumber() > 0 else 0
         # Heavy penalty if the light stays red for more than 10 seconds
-        red_light_penalty = -0.8 if self.current_phase == TrafficLightPhase.RED and self.phase_duration > 10 else 0
+        red_light_penalty = -0.2 if self.current_phase == TrafficLightPhase.RED and self.phase_duration > 10 else 0
         
-        return (speed_reward + 
+        return (0*speed_reward + 
                 0.5 * queue_penalty + 
                 0.3 * wait_penalty + 
                 change_penalty +
