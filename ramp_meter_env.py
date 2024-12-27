@@ -131,7 +131,10 @@ class RampMeterEnv:
         
         # Additional penalties for traffic events
         collision_penalty = -1.0 if traci.simulation.getCollidingVehiclesNumber() > 0 else 0
-        emergency_braking_penalty = -0.5 if traci.simulation.getEmergencyStoppingVehiclesNumber() > 0 else 0
+        emergency_braking_penalty = -0.6 if traci.simulation.getEmergencyStoppingVehiclesNumber() > 0 else 0
+        
+        # Heavy penalty if the light stays red for more than 10 seconds
+        red_light_penalty = -0.8 if self.current_phase == TrafficLightPhase.RED and self.phase_duration > 10 else 0
         
         return (speed_reward + 
                 0.5 * queue_penalty + 
@@ -139,7 +142,8 @@ class RampMeterEnv:
                 change_penalty +
                 yellow_penalty +
                 collision_penalty +
-                emergency_braking_penalty)
+                emergency_braking_penalty +
+                red_light_penalty)
     
     def step(self, action):
         """Execute action in environment with phase handling"""

@@ -182,7 +182,7 @@ class DQNAgent:
             
             # Save checkpoint every 50 episodes
             if (episode + 1) % 50 == 0:
-                checkpoint_path = os.path.join(self.checkpoints_dir, f'checkpoint_{episode + 1}.pth')
+                checkpoint_path = os.path.join(self.checkpoints_dir, f'checkpoint_{episode + 1}_{pid}.pth')
                 self.save(checkpoint_path)
                 print(f"Checkpoint saved at episode {episode + 1}")
             
