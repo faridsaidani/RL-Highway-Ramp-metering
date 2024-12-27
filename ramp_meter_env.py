@@ -38,7 +38,6 @@ class RampMeterEnv:
             TrafficLightPhase.RED: "rGGG"
         }
         
-        # print("phase to state", phase_to_state[phase])
         traci.trafficlight.setRedYellowGreenState("ramp_end", phase_to_state[phase])
         
     def _handle_phase_transition(self, action):
@@ -72,10 +71,6 @@ class RampMeterEnv:
         
         return old_phase != self.current_phase  # Return whether phase changed
     
-    import traci
-
-    import traci
-
     def _get_state(self):
         """
         Get current state of the environment.
@@ -91,11 +86,6 @@ class RampMeterEnv:
         ramp_queue_length = len(ramp_vehicles)
         self.ramp_queue.append(ramp_queue_length)
         
-        
-        # highway_length = sum(traci.lane.getLength(lane_id) for lane_id in traci.edge.getLane)
-        # highway_density = len(highway_vehicles) / highway_length
-        # print(highway_density)
-        
         ramp_wait_time = 0
         if ramp_vehicles:
             wait_times = [traci.vehicle.getWaitingTime(v) for v in ramp_vehicles]
@@ -104,7 +94,6 @@ class RampMeterEnv:
         # Normalize values
         norm_speed = np.mean(self.highway_speeds) / 27.78
         norm_queue = np.mean(self.ramp_queue) / 20
-        # norm_density = highway_density / 0.1
         norm_wait = min(ramp_wait_time / 120, 1)
         
         # Add traffic light phase information
@@ -122,7 +111,8 @@ class RampMeterEnv:
     
     def _calculate_reward(self, state, phase_changed):
         """
-        Calculate reward with additional considerations for phase changes
+        Calculate reward with additional considerations for phase changes,
+        accidents, collisions, emergency braking, and other traffic events.
         """
         highway_speed = state[0]
         ramp_queue = state[1]
@@ -139,11 +129,17 @@ class RampMeterEnv:
         # Yellow phase penalty to encourage quick transitions
         yellow_penalty = -0.1 if self.yellow_timer > 0 else 0
         
+        # Additional penalties for traffic events
+        collision_penalty = -1.0 if traci.simulation.getCollidingVehiclesNumber() > 0 else 0
+        emergency_braking_penalty = -0.5 if traci.simulation.getEmergencyStoppingVehiclesNumber() > 0 else 0
+        
         return (speed_reward + 
                 0.5 * queue_penalty + 
                 0.3 * wait_penalty + 
                 change_penalty +
-                yellow_penalty)
+                yellow_penalty +
+                collision_penalty +
+                emergency_braking_penalty)
     
     def step(self, action):
         """Execute action in environment with phase handling"""
@@ -186,7 +182,7 @@ class RampMeterEnv:
         self._set_traffic_light(TrafficLightPhase.RED)
         
         return self._get_state()
-
+    
     def close(self):
         """Close the TraCI connection"""
         traci.close()

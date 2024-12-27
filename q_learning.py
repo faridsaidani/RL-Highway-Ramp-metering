@@ -1,8 +1,9 @@
+import os
+import pickle
 import numpy as np
 from collections import defaultdict
-import pickle
 import csv
-import os
+from datetime import datetime
 
 class QLearningAgent:
     def __init__(self, 
@@ -29,11 +30,6 @@ class QLearningAgent:
         # Training metrics
         self.episode_rewards = []
         self.avg_rewards = []
-        
-        # Initialize CSV file for episode rewards if it doesn't exist
-        with open('episode_rewards.csv', mode='w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(['PID', 'Episode', 'Reward'])
         
     def _discretize_state(self, state):
         """Convert continuous state to discrete state for Q-table"""
@@ -99,7 +95,7 @@ class QLearningAgent:
             # Save episode reward to CSV file with lock
             if lock:
                 with lock:
-                    with open('episode_rewards.csv', mode='a', newline='') as file:
+                    with open(f'{self.save_dir}/episode_rewards.csv', mode='a', newline='') as file:
                         writer = csv.writer(file)
                         writer.writerow([pid, episode + 1, episode_reward])
             
@@ -132,3 +128,7 @@ class QLearningAgent:
         self.epsilon = save_dict['epsilon']
         self.episode_rewards = save_dict['episode_rewards']
         self.avg_rewards = save_dict['avg_rewards']
+    
+    def continue_training(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None):
+        """Continue training the Q-learning agent"""
+        self.train(env, n_episodes, max_steps, pid, lock)

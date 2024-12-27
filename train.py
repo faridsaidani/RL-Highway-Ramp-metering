@@ -5,33 +5,42 @@ from q_learning import QLearningAgent
 import matplotlib.pyplot as plt
 import os
 import multiprocessing
+from datetime import datetime
 
 def plot_training_results(agent, save_path=None):
     """Plot training metrics"""
-    plt.figure(figsize=(12, 5))
+    plt.figure(figsize=(12, 10))
     
     # Plot episode rewards
-    plt.subplot(1, 2, 1)
-    plt.plot(agent.episode_rewards)
+    plt.subplot(2, 1, 1)
+    plt.plot(agent.episode_rewards, label='Episode Reward')
     plt.title('Episode Rewards')
     plt.xlabel('Episode')
     plt.ylabel('Total Reward')
+    plt.legend()
     
     # Plot moving average
-    plt.subplot(1, 2, 2)
-    plt.plot(agent.avg_rewards)
+    plt.subplot(2, 1, 2)
+    plt.plot(agent.avg_rewards, label='Moving Average Reward (last 100 episodes)')
     plt.title('Average Reward (last 100 episodes)')
     plt.xlabel('Episode')
     plt.ylabel('Average Reward')
+    plt.legend()
     
     if save_path:
         plt.savefig(save_path)
     plt.show()
 
-def run_training(gui, pid, lock):
+def run_training(gui, pid, lock, model_path=None, continue_training=False, n_episodes=500):
     # Create directories for saving results
-    os.makedirs('models', exist_ok=True)
-    os.makedirs('plots', exist_ok=True)
+    timestamp = datetime.now().strftime("%d_%m_%H_%M")
+    base_dir = f'runs/run_{timestamp}_{n_episodes}'
+    model_dir = os.path.join(base_dir, 'models')
+    plot_dir = os.path.join(base_dir, 'plots')
+    data_dir = os.path.join(base_dir, 'data')
+    os.makedirs(model_dir, exist_ok=True)
+    os.makedirs(plot_dir, exist_ok=True)
+    os.makedirs(data_dir, exist_ok=True)
     
     # Initialize environments
     sumo_env = HighwayEnvironment(num_lanes=3, highway_length=1000, ramp_length=200, gui=gui)
@@ -48,21 +57,26 @@ def run_training(gui, pid, lock):
         epsilon_decay=0.995
     )
     
-    # Train the agent
-    agent.train(env, n_episodes=500, pid=pid, lock=lock)
+    agent.save_dir = data_dir  # Set the save directory for the agent's data
+    
+    if model_path and continue_training:
+        agent.load(model_path)
+        agent.continue_training(env, n_episodes=n_episodes, pid=pid, lock=lock)
+    else:
+        agent.train(env, n_episodes=n_episodes, pid=pid, lock=lock)
     
     # Save the trained agent
-    agent.save(f'models/q_learning_agent_{pid}.pkl')
+    agent.save(f'{model_dir}/q_learning_agent_{pid}.pkl')
     
     # Plot and save training results
-    plot_training_results(agent, f'plots/training_results_{pid}.png')
+    plot_training_results(agent, f'{plot_dir}/training_results_{pid}.png')
 
-def main(gui, n_runs):
+def main(gui, n_runs, model_path=None, continue_training=False, n_episodes=500):
     lock = multiprocessing.Lock()
     processes = []
     for i in range(n_runs):
         pid = os.getpid() + i
-        p = multiprocessing.Process(target=run_training, args=(gui, pid, lock))
+        p = multiprocessing.Process(target=run_training, args=(gui, pid, lock, model_path, continue_training, n_episodes))
         processes.append(p)
         p.start()
     
@@ -70,9 +84,12 @@ def main(gui, n_runs):
         p.join()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Train a Q-learning agent for ramp metering.')
+    parser = argparse.ArgumentParser(description='Train or continue training a Q-learning agent for ramp metering.')
     parser.add_argument('--gui', action='store_true', help='Enable GUI for SUMO simulation')
     parser.add_argument('--n_runs', type=int, default=1, help='Number of training runs')
+    parser.add_argument('--model', type=str, help='Path to the trained model file to continue training')
+    parser.add_argument('--continue_training', action='store_true', help='Continue training an existing model')
+    parser.add_argument('--n_episodes', type=int, default=500, help='Number of episodes for training')
     args = parser.parse_args()
     
-    main(gui=args.gui, n_runs=args.n_runs)
+    main(gui=args.gui, n_runs=args.n_runs, model_path=args.model, continue_training=args.continue_training, n_episodes=args.n_episodes)
