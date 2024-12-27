@@ -39,9 +39,11 @@ def run_training(gui, pid, lock, model_path=None, continue_training=False, n_epi
     model_dir = os.path.join(base_dir, 'models')
     plot_dir = os.path.join(base_dir, 'plots')
     data_dir = os.path.join(base_dir, 'data')
+    checkpoints_dir = os.path.join(model_dir, 'checkpoints')
     os.makedirs(model_dir, exist_ok=True)
     os.makedirs(plot_dir, exist_ok=True)
     os.makedirs(data_dir, exist_ok=True)
+    os.makedirs(checkpoints_dir, exist_ok=True)
     
     # Initialize environments
     sumo_env = HighwayEnvironment(num_lanes=3, highway_length=1000, ramp_length=200, gui=gui)
@@ -60,6 +62,7 @@ def run_training(gui, pid, lock, model_path=None, continue_training=False, n_epi
     )
     
     agent.save_dir = data_dir  # Set the save directory for the agent's data
+    agent.checkpoints_dir = checkpoints_dir  # Set the checkpoints directory
     
     if model_path and continue_training:
         agent.load(model_path)

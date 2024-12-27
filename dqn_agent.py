@@ -1,3 +1,4 @@
+from datetime import datetime
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -82,8 +83,7 @@ class DQNAgent:
         self.update_count = 0
         
         # Create checkpoints directory
-        self.checkpoints_dir = 'checkpoints'
-        os.makedirs(self.checkpoints_dir, exist_ok=True)
+        self.checkpoints_dir = None
         
     def select_action(self, state, training=True):
         if training and random.random() < self.epsilon:
