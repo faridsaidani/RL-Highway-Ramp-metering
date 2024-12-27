@@ -130,9 +130,8 @@ class RampMeterEnv:
         yellow_penalty = -0.1 if self.yellow_timer > 0 else 0
         
         # Additional penalties for traffic events
-        collision_penalty = -1.0 if traci.simulation.getCollidingVehiclesNumber() > 0 else 0
+        collision_penalty = -10.0 if traci.simulation.getCollisions() else 0
         emergency_braking_penalty = -0.6 if traci.simulation.getEmergencyStoppingVehiclesNumber() > 0 else 0
-        
         # Heavy penalty if the light stays red for more than 10 seconds
         red_light_penalty = -0.8 if self.current_phase == TrafficLightPhase.RED and self.phase_duration > 10 else 0
         
