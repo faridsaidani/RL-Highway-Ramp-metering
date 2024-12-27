@@ -5,6 +5,7 @@ import numpy as np
 from collections import deque
 import random
 import os
+import csv
 
 class DQNNetwork(nn.Module):
     def __init__(self, input_dim, output_dim):
@@ -42,7 +43,7 @@ class ReplayBuffer:
 
 class DQNAgent:
     def __init__(self, 
-                 state_dim=9,
+                 state_dim=7,
                  n_actions=2,
                  learning_rate=0.001,
                  gamma=0.95,
@@ -127,7 +128,7 @@ class DQNAgent:
         if self.update_count % self.target_update == 0:
             self.target_net.load_state_dict(self.policy_net.state_dict())
     
-    def train(self, env, n_episodes=1000, max_steps=3600, warmup_steps=1000):
+    def train(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, warmup_steps=1000):
         """Train the DQN agent"""
         for episode in range(n_episodes):
             state = env.reset()
@@ -168,10 +169,17 @@ class DQNAgent:
             avg_reward = np.mean(self.episode_rewards[-100:])
             self.avg_rewards.append(avg_reward)
             
+            # Save episode reward to CSV file with lock
+            if lock:
+                with lock:
+                    with open(f'{self.save_dir}/episode_rewards.csv', mode='a', newline='') as file:
+                        writer = csv.writer(file)
+                        writer.writerow([pid, episode + 1, episode_reward])
+            
             # Print progress
             if (episode + 1) % 10 == 0:
                 avg_loss = np.mean(self.losses[-100:]) if self.losses else 0
-                print(f"Episode {episode + 1}/{n_episodes}")
+                print(f"PID {pid} - Episode {episode + 1}/{n_episodes}")
                 print(f"Average Reward: {avg_reward:.2f}")
                 print(f"Average Loss: {avg_loss:.4f}")
                 print(f"Epsilon: {self.epsilon:.3f}")
@@ -200,3 +208,7 @@ class DQNAgent:
         self.episode_rewards = checkpoint['episode_rewards']
         self.avg_rewards = checkpoint['avg_rewards']
         self.losses = checkpoint['losses']
+    
+    def continue_training(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None):
+        """Continue training the DQN agent"""
+        self.train(env, n_episodes, max_steps, pid, lock)
