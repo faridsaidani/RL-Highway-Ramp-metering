@@ -43,7 +43,7 @@ class ReplayBuffer:
 
 class DQNAgent:
     def __init__(self, 
-                 state_dim=7,
+                 state_dim=9,
                  n_actions=2,
                  learning_rate=0.001,
                  gamma=0.95,
@@ -80,6 +80,10 @@ class DQNAgent:
         self.avg_rewards = []
         self.losses = []
         self.update_count = 0
+        
+        # Create checkpoints directory
+        self.checkpoints_dir = 'checkpoints'
+        os.makedirs(self.checkpoints_dir, exist_ok=True)
         
     def select_action(self, state, training=True):
         if training and random.random() < self.epsilon:
@@ -175,6 +179,12 @@ class DQNAgent:
                     with open(f'{self.save_dir}/episode_rewards.csv', mode='a', newline='') as file:
                         writer = csv.writer(file)
                         writer.writerow([pid, episode + 1, episode_reward])
+            
+            # Save checkpoint every 50 episodes
+            if (episode + 1) % 50 == 0:
+                checkpoint_path = os.path.join(self.checkpoints_dir, f'checkpoint_{episode + 1}.pth')
+                self.save(checkpoint_path)
+                print(f"Checkpoint saved at episode {episode + 1}")
             
             # Print progress
             if (episode + 1) % 10 == 0:
