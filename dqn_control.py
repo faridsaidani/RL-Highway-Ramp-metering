@@ -12,7 +12,7 @@ def run_dqn_control(gui, model_path, n_episodes=10, max_steps=3600):
     # Initialize DQN agent
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     agent = DQNAgent(
-        state_dim=7,
+        state_dim=8,
         n_actions=2,
         learning_rate=0.001,
         gamma=0.99,

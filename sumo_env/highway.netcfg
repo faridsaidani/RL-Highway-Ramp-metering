@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <input>
-            <node-files value="nodes.nod.xml"/>
-            <edge-files value="edges.edg.xml"/>
-            <connection-files value="connections.con.xml"/>
-        </input>
-        <output>
-            <output-file value="highway.net.xml"/>
-        </output>
-    </configuration>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <input>
+        <node-files value="nodes.nod.xml"/>
+        <edge-files value="edges.edg.xml"/>
+        <connection-files value="connections.con.xml"/>
+    </input>
+    <output>
+        <output-file value="highway.net.xml"/>
+    </output>
+</configuration>

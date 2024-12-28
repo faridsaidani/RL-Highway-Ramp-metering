@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <routes>
-        <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="30"/>
-    
-        <flow id="highway_flow_custom" type="car" begin="0" end="3600" vehsPerHour="7600">
-            <route edges="highway1 highway2"/>
-        </flow>
-        <flow id="ramp_flow_custom" type="car" begin="0" end="3600" vehsPerHour="600">
-            <route edges="ramp highway2"/>
-        </flow>
-    </routes>
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" lcStrategic="10.0" lcKeepRight="0.1"/>
+
+    <flow id="highway_flow_0" type="car" begin="0" end="600" period="0.6" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow_0" type="car" begin="0" end="600" period="6.0">
+        <route edges="ramp highway2"/>    
+    </flow>    
+
+    <flow id="highway_flow_600" type="car" begin="600" end="1600" period="360.0" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow_600" type="car" begin="600" end="1600" period="24.0">
+        <route edges="ramp highway2"/>    
+    </flow>    
+
+    <flow id="highway_flow_1600" type="car" begin="1600" end="2800" period="0.45" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow_1600" type="car" begin="1600" end="2800" period="4.5">
+        <route edges="ramp highway2"/>    
+    </flow>    
+
+    <flow id="highway_flow_2800" type="car" begin="2800" end="3600" period="3.6" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow_2800" type="car" begin="2800" end="3600" period="6.0">
+        <route edges="ramp highway2"/>    
+    </flow>    
+</routes>

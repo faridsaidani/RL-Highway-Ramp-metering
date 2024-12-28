@@ -91,10 +91,19 @@ class RampMeterEnv:
             wait_times = [traci.vehicle.getWaitingTime(v) for v in ramp_vehicles]
             ramp_wait_time = np.mean(wait_times)
         
+        # Calculate the distance of the nearest car in the rightmost lane from the traffic light
+        right_lane_vehicles = [v for v in highway_vehicles if traci.vehicle.getLaneID(v).endswith("_0")]
+        if right_lane_vehicles:
+            distances = [self.sumo_env.highway_length - traci.vehicle.getLanePosition(v) for v in right_lane_vehicles]
+            min_distance = min(distances)
+        else:
+            min_distance = self.sumo_env.highway_length  # No vehicles in the rightmost lane
+        
         # Normalize values
         norm_speed = np.mean(self.highway_speeds) / 27.78
         norm_queue = np.mean(self.ramp_queue) / 20
         norm_wait = min(ramp_wait_time / 120, 1)
+        norm_distance = min_distance / self.sumo_env.highway_length
         
         # Add traffic light phase information
         phase_info = np.zeros(3)  # One-hot encoding of phase
@@ -104,7 +113,7 @@ class RampMeterEnv:
         norm_phase_duration = min(self.phase_duration / 30, 1)  # Normalize to 30 seconds
         
         return np.array([
-            norm_speed, norm_queue, norm_wait,
+            norm_speed, norm_queue, norm_wait, norm_distance,
             *phase_info,  # Add phase one-hot encoding
             norm_phase_duration  # Add normalized phase duration
         ])
@@ -117,6 +126,7 @@ class RampMeterEnv:
         highway_speed = state[0]
         ramp_queue = state[1]
         ramp_wait = state[2]
+        norm_distance = state[3]
         
         # Base rewards
         speed_reward = highway_speed
@@ -130,19 +140,28 @@ class RampMeterEnv:
         yellow_penalty = -0.1 if self.yellow_timer > 0 else 0
         
         # Additional penalties for traffic events
-        collision_penalty = -10.0 if traci.simulation.getCollisions() else 0
+        collision_penalty = -20.0 if traci.simulation.getCollisions() else 0
         emergency_braking_penalty = -0.6 if traci.simulation.getEmergencyStoppingVehiclesNumber() > 0 else 0
+        
+        # Encourage green light if no cars in the rightmost lane
+        green_light_bonus = 1.0 if norm_distance > 0.8 and self.current_phase == TrafficLightPhase.GREEN else 0
+        
         # Heavy penalty if the light stays red for more than 10 seconds
         red_light_penalty = -0.2 if self.current_phase == TrafficLightPhase.RED and self.phase_duration > 10 else 0
         
-        return (0*speed_reward + 
+        # Heavy penalty if the light is green and there's a vehicle close to the traffic light in the highway
+        close_vehicle_penalty = -5.0 if norm_distance < 0.2 and self.current_phase == TrafficLightPhase.GREEN else 0
+        
+        return (0.0 * speed_reward + 
                 0.5 * queue_penalty + 
                 0.3 * wait_penalty + 
-                change_penalty +
-                yellow_penalty +
+                0.5 * change_penalty +
+                0.5 * yellow_penalty +
                 collision_penalty +
                 emergency_braking_penalty +
-                red_light_penalty)
+                green_light_bonus +
+                red_light_penalty +
+                close_vehicle_penalty)
     
     def step(self, action):
         """Execute action in environment with phase handling"""
