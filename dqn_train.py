@@ -59,7 +59,6 @@ def run_training(gui, pid, lock, model_path=None, continue_training=False, n_epi
         epsilon=1.0,
         epsilon_min=0.01,
         epsilon_decay=0.99,
-        device=device
     )
     
     agent.save_dir = data_dir  # Set the save directory for the agent's data

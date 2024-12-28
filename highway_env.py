@@ -80,7 +80,7 @@ class HighwayEnvironment:
             # Define multiple flows
             flows = [
                 {"start": 0, "end": 600, "highway_flow": 6000, "ramp_flow": 600},  # Heavy flow at the start
-                {"start": 600, "end": 1600, "highway_flow": 10, "ramp_flow": 150},  # Lighter flow
+                {"start": 600, "end": 1600, "highway_flow": 1000, "ramp_flow": 150},  # Lighter flow
                 {"start": 1600, "end": 2800, "highway_flow": 8000, "ramp_flow": 800},  # Very heavy flow
                 {"start": 2800, "end": 3600, "highway_flow": 1000, "ramp_flow": 600},  # Lighter flow
             ]
