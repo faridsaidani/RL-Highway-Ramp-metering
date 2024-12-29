@@ -31,6 +31,9 @@ class QLearningAgent:
         self.episode_rewards = []
         self.avg_rewards = []
         
+        # Create checkpoints directory
+        self.checkpoints_dir = None
+        
     def _discretize_state(self, state):
         """Convert continuous state to discrete state for Q-table"""
         discrete_state = []
@@ -67,7 +70,7 @@ class QLearningAgent:
         # Decay epsilon
         self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
     
-    def train(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, checkpoint_interval=50):
+    def train(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, checkpoint_interval=3):
         """Train the Q-learning agent"""
         for episode in range(n_episodes):
             state = env.reset()
@@ -100,7 +103,12 @@ class QLearningAgent:
                         writer.writerow([pid, episode + 1, episode_reward])
             
             # Print progress
-            if (episode + 1) % 10 == 0:
+            if (episode + 1) % 5 == 0:
+                with open(f'{self.save_dir}/progress.txt', mode='a') as file:
+                    file.write(f"PID {pid} - Episode {episode + 1}/{n_episodes}\n")
+                    file.write(f"Average Reward: {avg_reward:.2f}\n")
+                    file.write(f"Epsilon: {self.epsilon:.3f}\n")
+                    file.write("-------------------\n")
                 print(f"PID {pid} - Episode {episode + 1}/{n_episodes}")
                 print(f"Average Reward: {avg_reward:.2f}")
                 print(f"Epsilon: {self.epsilon:.3f}")
@@ -108,12 +116,13 @@ class QLearningAgent:
             
             # Save checkpoint
             if (episode + 1) % checkpoint_interval == 0:
-                checkpoint_path = f'{self.checkpoints_dir}/q_learning_checkpoint_{episode + 1}.pkl'
+                checkpoint_path = os.path.join(self.checkpoints_dir, f'q_learning_checkpoint_{episode + 1}_{pid}.pkl')
                 self.save(checkpoint_path)
                 print(f"Checkpoint saved at episode {episode + 1}")
     
     def save(self, filepath):
         """Save the trained agent"""
+        print("saving model")
         save_dict = {
             'q_table': dict(self.q_table),  # Convert defaultdict to regular dict
             'epsilon': self.epsilon,
@@ -135,6 +144,6 @@ class QLearningAgent:
         self.episode_rewards = save_dict['episode_rewards']
         self.avg_rewards = save_dict['avg_rewards']
     
-    def continue_training(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, checkpoint_interval=100):
+    def continue_training(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, checkpoint_interval=50):
         """Continue training the Q-learning agent"""
         self.train(env, n_episodes, max_steps, pid, lock, checkpoint_interval)

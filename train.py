@@ -75,12 +75,12 @@ def run_training(gui, pid, lock, model_path=None, continue_training=False, n_epi
     # Plot and save training results
     plot_training_results(agent, f'{plot_dir}/training_results_{pid}.png')
 
-def main(gui, n_runs, model_path=None, continue_training=False, n_episodes=500):
+def main(gui, n_runs, model_path=None, continue_training=False, n_episodes=500, checkpoint_interval=50):
     lock = multiprocessing.Lock()
     processes = []
     for i in range(n_runs):
         pid = os.getpid() + i
-        p = multiprocessing.Process(target=run_training, args=(gui, pid, lock, model_path, continue_training, n_episodes))
+        p = multiprocessing.Process(target=run_training, args=(gui, pid, lock, model_path, continue_training, n_episodes, checkpoint_interval))
         processes.append(p)
         p.start()
     
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, help='Path to the trained model file to continue training')
     parser.add_argument('--continue_training', action='store_true', help='Continue training an existing model')
     parser.add_argument('--n_episodes', type=int, default=500, help='Number of episodes for training')
-    parser.add_argument('--checkpoint_interval', type=int, default=100, help='Interval for saving checkpoints')
+    parser.add_argument('--checkpoint_interval', type=int, default=50, help='Interval for saving checkpoints')
     args = parser.parse_args()
     
-    main(gui=args.gui, n_runs=args.n_runs, model_path=args.model, continue_training=args.continue_training, n_episodes=args.n_episodes)
+    main(gui=args.gui, n_runs=args.n_runs, model_path=args.model, continue_training=args.continue_training, n_episodes=args.n_episodes, checkpoint_interval=args.checkpoint_interval)
