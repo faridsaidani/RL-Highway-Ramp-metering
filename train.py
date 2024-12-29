@@ -5,6 +5,7 @@ from highway_env import HighwayEnvironment
 from ramp_meter_env import RampMeterEnv
 from q_learning import QLearningAgent
 import matplotlib.pyplot as plt
+from datetime import datetime
 
 def plot_training_results(agent, save_path=None):
     """Plot training metrics"""

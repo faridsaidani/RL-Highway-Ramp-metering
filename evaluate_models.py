@@ -82,7 +82,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Suppress SUMO warnings
-    os.environ['SUMO_HOME'] = 'C:/Program Files (x86)/Eclipse/Sumo/bin/'  # Set this to your SUMO installation path
+    os.environ['SUMO_HOME'] = 'C:/Program Files (x86)/Eclipse/Sumo'  # Set this to your SUMO installation path
     os.environ['SUMO_OPTS'] = '--no-warnings'
 
     evaluate_models_in_folder(folder_path=args.folder, output_csv=args.output_csv, gui=args.gui, n_episodes=args.n_episodes, max_steps=args.max_steps)

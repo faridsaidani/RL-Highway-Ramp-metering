@@ -45,7 +45,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run a trained DQN agent for traffic control in SUMO.')
     parser.add_argument('--gui', action='store_true', help='Enable GUI for SUMO simulation')
     parser.add_argument('--model', type=str, required=True, help='Path to the trained model file')
-    parser.add_argument('--n_episodes', type=int, default=10, help='Number of episodes to run')
+    parser.add_argument('--n_episodes', type=int, default=1, help='Number of episodes to run')
     parser.add_argument('--max_steps', type=int, default=3600, help='Maximum steps per episode')
     args = parser.parse_args()
     
