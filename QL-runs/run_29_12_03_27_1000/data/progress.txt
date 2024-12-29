@@ -1,0 +1,4000 @@
+PID 17929 - Episode 5/1000
+Average Reward: -1000.92
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 5/1000
+Average Reward: -1032.91
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 5/1000
+Average Reward: -1019.00
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 5/1000
+Average Reward: -1003.56
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 5/1000
+Average Reward: -1006.53
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 10/1000
+Average Reward: -1045.02
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 10/1000
+Average Reward: -1005.04
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 10/1000
+Average Reward: -945.50
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 10/1000
+Average Reward: -1109.68
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 10/1000
+Average Reward: -1071.02
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 15/1000
+Average Reward: -964.72
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 15/1000
+Average Reward: -1028.62
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 15/1000
+Average Reward: -1003.28
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 15/1000
+Average Reward: -1097.00
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 15/1000
+Average Reward: -1110.14
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 20/1000
+Average Reward: -946.47
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 20/1000
+Average Reward: -884.99
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 20/1000
+Average Reward: -966.17
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 20/1000
+Average Reward: -1000.02
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 20/1000
+Average Reward: -1052.23
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 25/1000
+Average Reward: -908.92
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 25/1000
+Average Reward: -926.83
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 25/1000
+Average Reward: -831.14
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 25/1000
+Average Reward: -953.21
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 25/1000
+Average Reward: -959.06
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 30/1000
+Average Reward: -838.74
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 30/1000
+Average Reward: -772.61
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 30/1000
+Average Reward: -889.21
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 30/1000
+Average Reward: -895.48
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 30/1000
+Average Reward: -908.27
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 35/1000
+Average Reward: -718.07
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 35/1000
+Average Reward: -790.23
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 35/1000
+Average Reward: -827.85
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 35/1000
+Average Reward: -849.46
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 35/1000
+Average Reward: -875.37
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 40/1000
+Average Reward: -770.18
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 40/1000
+Average Reward: -710.30
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 40/1000
+Average Reward: -800.24
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 40/1000
+Average Reward: -800.89
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 40/1000
+Average Reward: -862.14
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 45/1000
+Average Reward: -751.85
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 45/1000
+Average Reward: -772.51
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 45/1000
+Average Reward: -703.80
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 45/1000
+Average Reward: -778.97
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 45/1000
+Average Reward: -827.27
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 50/1000
+Average Reward: -715.04
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 50/1000
+Average Reward: -757.65
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 50/1000
+Average Reward: -700.49
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 50/1000
+Average Reward: -734.54
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 50/1000
+Average Reward: -812.75
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 55/1000
+Average Reward: -690.78
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 55/1000
+Average Reward: -698.32
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 55/1000
+Average Reward: -685.46
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 55/1000
+Average Reward: -772.23
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 55/1000
+Average Reward: -796.04
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 60/1000
+Average Reward: -668.77
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 60/1000
+Average Reward: -674.44
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 60/1000
+Average Reward: -668.01
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 60/1000
+Average Reward: -775.66
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 60/1000
+Average Reward: -793.48
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 65/1000
+Average Reward: -646.13
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 65/1000
+Average Reward: -667.17
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 65/1000
+Average Reward: -674.84
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 65/1000
+Average Reward: -771.62
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 65/1000
+Average Reward: -805.80
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 70/1000
+Average Reward: -636.42
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 70/1000
+Average Reward: -667.28
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 70/1000
+Average Reward: -672.32
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 70/1000
+Average Reward: -771.99
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 70/1000
+Average Reward: -817.77
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 75/1000
+Average Reward: -621.62
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 75/1000
+Average Reward: -673.09
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 75/1000
+Average Reward: -700.86
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 75/1000
+Average Reward: -773.20
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 75/1000
+Average Reward: -802.57
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 80/1000
+Average Reward: -612.45
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 80/1000
+Average Reward: -670.73
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 80/1000
+Average Reward: -721.86
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 80/1000
+Average Reward: -774.02
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 80/1000
+Average Reward: -789.14
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 85/1000
+Average Reward: -609.14
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 85/1000
+Average Reward: -659.64
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 85/1000
+Average Reward: -712.07
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 85/1000
+Average Reward: -778.59
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 85/1000
+Average Reward: -779.58
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 90/1000
+Average Reward: -608.09
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 90/1000
+Average Reward: -649.69
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 90/1000
+Average Reward: -697.48
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 90/1000
+Average Reward: -781.27
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 90/1000
+Average Reward: -765.98
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 95/1000
+Average Reward: -607.04
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 95/1000
+Average Reward: -634.97
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 95/1000
+Average Reward: -684.82
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 95/1000
+Average Reward: -749.69
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 95/1000
+Average Reward: -801.64
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 100/1000
+Average Reward: -606.26
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 100/1000
+Average Reward: -622.90
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 100/1000
+Average Reward: -673.40
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 100/1000
+Average Reward: -738.40
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 100/1000
+Average Reward: -789.43
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 105/1000
+Average Reward: -585.00
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 105/1000
+Average Reward: -591.88
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 105/1000
+Average Reward: -639.22
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 105/1000
+Average Reward: -710.18
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 105/1000
+Average Reward: -773.54
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 110/1000
+Average Reward: -564.07
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 110/1000
+Average Reward: -569.63
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 110/1000
+Average Reward: -594.98
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 110/1000
+Average Reward: -674.86
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 110/1000
+Average Reward: -755.64
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 115/1000
+Average Reward: -538.54
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 115/1000
+Average Reward: -538.79
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 115/1000
+Average Reward: -557.86
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 115/1000
+Average Reward: -637.84
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 115/1000
+Average Reward: -749.63
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 120/1000
+Average Reward: -529.30
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 120/1000
+Average Reward: -532.64
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 120/1000
+Average Reward: -534.55
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 120/1000
+Average Reward: -636.18
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 120/1000
+Average Reward: -741.04
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 125/1000
+Average Reward: -530.27
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 125/1000
+Average Reward: -535.02
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 125/1000
+Average Reward: -525.85
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 125/1000
+Average Reward: -630.62
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 125/1000
+Average Reward: -731.16
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 130/1000
+Average Reward: -527.78
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 130/1000
+Average Reward: -516.72
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 130/1000
+Average Reward: -555.06
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 130/1000
+Average Reward: -625.69
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 130/1000
+Average Reward: -717.33
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 135/1000
+Average Reward: -533.33
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 135/1000
+Average Reward: -511.43
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 135/1000
+Average Reward: -575.04
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 135/1000
+Average Reward: -616.32
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 135/1000
+Average Reward: -728.65
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 140/1000
+Average Reward: -523.47
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 140/1000
+Average Reward: -503.13
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 140/1000
+Average Reward: -584.50
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 140/1000
+Average Reward: -604.22
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 140/1000
+Average Reward: -736.03
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 145/1000
+Average Reward: -516.74
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 145/1000
+Average Reward: -491.34
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 145/1000
+Average Reward: -606.23
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 145/1000
+Average Reward: -602.13
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 145/1000
+Average Reward: -730.63
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 150/1000
+Average Reward: -509.24
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 150/1000
+Average Reward: -500.64
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 150/1000
+Average Reward: -628.45
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 150/1000
+Average Reward: -599.51
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 150/1000
+Average Reward: -719.65
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 155/1000
+Average Reward: -505.12
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 155/1000
+Average Reward: -508.26
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 155/1000
+Average Reward: -645.79
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 155/1000
+Average Reward: -602.01
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 155/1000
+Average Reward: -692.48
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 160/1000
+Average Reward: -503.67
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 160/1000
+Average Reward: -508.90
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 160/1000
+Average Reward: -657.51
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 160/1000
+Average Reward: -607.25
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 160/1000
+Average Reward: -671.05
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 165/1000
+Average Reward: -487.74
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 165/1000
+Average Reward: -498.62
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 165/1000
+Average Reward: -664.79
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 165/1000
+Average Reward: -586.34
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 165/1000
+Average Reward: -655.93
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 170/1000
+Average Reward: -488.52
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 170/1000
+Average Reward: -484.94
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 170/1000
+Average Reward: -675.12
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 170/1000
+Average Reward: -561.48
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 170/1000
+Average Reward: -641.42
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 175/1000
+Average Reward: -448.45
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 175/1000
+Average Reward: -473.90
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 175/1000
+Average Reward: -691.69
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 175/1000
+Average Reward: -624.31
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 175/1000
+Average Reward: -559.11
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 180/1000
+Average Reward: -416.41
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 180/1000
+Average Reward: -465.27
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 180/1000
+Average Reward: -709.75
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 180/1000
+Average Reward: -605.83
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 180/1000
+Average Reward: -552.40
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 185/1000
+Average Reward: -467.50
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 185/1000
+Average Reward: -421.02
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 185/1000
+Average Reward: -582.84
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 185/1000
+Average Reward: -727.66
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 185/1000
+Average Reward: -554.11
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 190/1000
+Average Reward: -469.38
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 190/1000
+Average Reward: -458.30
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 190/1000
+Average Reward: -563.40
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 190/1000
+Average Reward: -556.88
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 190/1000
+Average Reward: -747.42
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 195/1000
+Average Reward: -476.16
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 195/1000
+Average Reward: -478.26
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 195/1000
+Average Reward: -526.93
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 195/1000
+Average Reward: -553.08
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 195/1000
+Average Reward: -761.94
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 200/1000
+Average Reward: -481.02
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 200/1000
+Average Reward: -477.74
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 200/1000
+Average Reward: -518.06
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 200/1000
+Average Reward: -551.99
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 200/1000
+Average Reward: -759.92
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 205/1000
+Average Reward: -496.20
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 205/1000
+Average Reward: -478.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 205/1000
+Average Reward: -501.89
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 205/1000
+Average Reward: -551.42
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 205/1000
+Average Reward: -753.07
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 210/1000
+Average Reward: -500.01
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 210/1000
+Average Reward: -480.17
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 210/1000
+Average Reward: -486.58
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 210/1000
+Average Reward: -555.13
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 210/1000
+Average Reward: -748.13
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 215/1000
+Average Reward: -498.31
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 215/1000
+Average Reward: -486.02
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 215/1000
+Average Reward: -469.70
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 215/1000
+Average Reward: -559.36
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 215/1000
+Average Reward: -747.46
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 220/1000
+Average Reward: -499.19
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 220/1000
+Average Reward: -500.61
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 220/1000
+Average Reward: -454.53
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 220/1000
+Average Reward: -552.84
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 220/1000
+Average Reward: -738.80
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 225/1000
+Average Reward: -493.95
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 225/1000
+Average Reward: -512.76
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 225/1000
+Average Reward: -445.75
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 225/1000
+Average Reward: -548.23
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 225/1000
+Average Reward: -716.49
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 230/1000
+Average Reward: -493.60
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 230/1000
+Average Reward: -527.01
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 230/1000
+Average Reward: -441.18
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 230/1000
+Average Reward: -563.68
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 230/1000
+Average Reward: -696.18
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 235/1000
+Average Reward: -486.14
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 235/1000
+Average Reward: -538.01
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 235/1000
+Average Reward: -432.71
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 235/1000
+Average Reward: -570.35
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 235/1000
+Average Reward: -683.74
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 240/1000
+Average Reward: -486.10
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 240/1000
+Average Reward: -549.92
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 240/1000
+Average Reward: -428.02
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 240/1000
+Average Reward: -568.76
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 245/1000
+Average Reward: -485.85
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 240/1000
+Average Reward: -697.72
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 245/1000
+Average Reward: -565.97
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 245/1000
+Average Reward: -431.42
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 245/1000
+Average Reward: -566.27
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 250/1000
+Average Reward: -482.63
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 245/1000
+Average Reward: -687.76
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 250/1000
+Average Reward: -559.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 250/1000
+Average Reward: -430.38
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 250/1000
+Average Reward: -557.26
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 255/1000
+Average Reward: -481.87
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 250/1000
+Average Reward: -673.98
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 255/1000
+Average Reward: -562.62
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 255/1000
+Average Reward: -430.54
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 255/1000
+Average Reward: -540.65
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 260/1000
+Average Reward: -483.54
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 255/1000
+Average Reward: -669.69
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 260/1000
+Average Reward: -564.22
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 260/1000
+Average Reward: -428.99
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 260/1000
+Average Reward: -515.37
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 265/1000
+Average Reward: -487.02
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 260/1000
+Average Reward: -669.04
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 265/1000
+Average Reward: -572.45
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 265/1000
+Average Reward: -431.58
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 265/1000
+Average Reward: -514.48
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 270/1000
+Average Reward: -482.76
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 265/1000
+Average Reward: -670.21
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 270/1000
+Average Reward: -573.60
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 270/1000
+Average Reward: -427.25
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 270/1000
+Average Reward: -512.77
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 275/1000
+Average Reward: -482.87
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 270/1000
+Average Reward: -657.35
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 275/1000
+Average Reward: -573.83
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 275/1000
+Average Reward: -426.90
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 275/1000
+Average Reward: -502.82
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 280/1000
+Average Reward: -499.71
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 275/1000
+Average Reward: -644.87
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 280/1000
+Average Reward: -576.81
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 280/1000
+Average Reward: -426.14
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 280/1000
+Average Reward: -501.34
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 285/1000
+Average Reward: -524.35
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 280/1000
+Average Reward: -629.83
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 285/1000
+Average Reward: -563.36
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 285/1000
+Average Reward: -434.95
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 285/1000
+Average Reward: -486.00
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 290/1000
+Average Reward: -558.82
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 285/1000
+Average Reward: -615.51
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 290/1000
+Average Reward: -523.99
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 290/1000
+Average Reward: -431.31
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 290/1000
+Average Reward: -475.39
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 295/1000
+Average Reward: -504.79
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 290/1000
+Average Reward: -592.20
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 295/1000
+Average Reward: -569.40
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 295/1000
+Average Reward: -431.52
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 295/1000
+Average Reward: -474.02
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 300/1000
+Average Reward: -499.08
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 300/1000
+Average Reward: -569.59
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 295/1000
+Average Reward: -572.91
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 300/1000
+Average Reward: -433.08
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 300/1000
+Average Reward: -470.60
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 305/1000
+Average Reward: -501.36
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 305/1000
+Average Reward: -554.10
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 300/1000
+Average Reward: -567.11
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 305/1000
+Average Reward: -432.95
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 305/1000
+Average Reward: -482.18
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 310/1000
+Average Reward: -502.00
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 310/1000
+Average Reward: -549.60
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 305/1000
+Average Reward: -576.00
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 310/1000
+Average Reward: -435.10
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 310/1000
+Average Reward: -481.13
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 315/1000
+Average Reward: -494.35
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 315/1000
+Average Reward: -546.72
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 310/1000
+Average Reward: -578.07
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 315/1000
+Average Reward: -434.35
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 315/1000
+Average Reward: -473.80
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 320/1000
+Average Reward: -476.01
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 320/1000
+Average Reward: -554.21
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 320/1000
+Average Reward: -432.77
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 315/1000
+Average Reward: -573.33
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 320/1000
+Average Reward: -465.04
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 325/1000
+Average Reward: -459.16
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 325/1000
+Average Reward: -555.60
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 325/1000
+Average Reward: -434.04
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 320/1000
+Average Reward: -580.72
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 325/1000
+Average Reward: -459.71
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 330/1000
+Average Reward: -446.58
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 330/1000
+Average Reward: -559.85
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 330/1000
+Average Reward: -433.46
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 325/1000
+Average Reward: -581.15
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 330/1000
+Average Reward: -434.37
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 335/1000
+Average Reward: -438.21
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 335/1000
+Average Reward: -564.15
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 335/1000
+Average Reward: -433.23
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 330/1000
+Average Reward: -577.88
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 335/1000
+Average Reward: -418.49
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 340/1000
+Average Reward: -423.34
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 340/1000
+Average Reward: -432.98
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 340/1000
+Average Reward: -563.85
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 335/1000
+Average Reward: -569.54
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 340/1000
+Average Reward: -417.71
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 345/1000
+Average Reward: -412.12
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 345/1000
+Average Reward: -560.22
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 345/1000
+Average Reward: -436.71
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 340/1000
+Average Reward: -535.07
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 345/1000
+Average Reward: -425.69
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 350/1000
+Average Reward: -413.17
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 350/1000
+Average Reward: -564.98
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 345/1000
+Average Reward: -518.97
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 350/1000
+Average Reward: -449.21
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 350/1000
+Average Reward: -432.28
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 355/1000
+Average Reward: -405.10
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 355/1000
+Average Reward: -562.17
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 355/1000
+Average Reward: -459.46
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 350/1000
+Average Reward: -527.33
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 355/1000
+Average Reward: -431.11
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 360/1000
+Average Reward: -404.18
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 360/1000
+Average Reward: -561.27
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 360/1000
+Average Reward: -460.68
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 355/1000
+Average Reward: -524.78
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 360/1000
+Average Reward: -431.81
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 365/1000
+Average Reward: -402.90
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 365/1000
+Average Reward: -562.27
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 365/1000
+Average Reward: -459.46
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 360/1000
+Average Reward: -527.81
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 365/1000
+Average Reward: -426.43
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 370/1000
+Average Reward: -402.86
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 370/1000
+Average Reward: -557.63
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 370/1000
+Average Reward: -464.10
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 365/1000
+Average Reward: -538.27
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 370/1000
+Average Reward: -427.55
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 375/1000
+Average Reward: -401.87
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 375/1000
+Average Reward: -558.23
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 375/1000
+Average Reward: -463.10
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 370/1000
+Average Reward: -546.31
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 375/1000
+Average Reward: -434.08
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 380/1000
+Average Reward: -400.19
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 380/1000
+Average Reward: -542.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 380/1000
+Average Reward: -460.91
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 375/1000
+Average Reward: -556.96
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 380/1000
+Average Reward: -432.91
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 385/1000
+Average Reward: -399.36
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 385/1000
+Average Reward: -510.46
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 385/1000
+Average Reward: -452.71
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 380/1000
+Average Reward: -555.43
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 385/1000
+Average Reward: -437.92
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 390/1000
+Average Reward: -398.51
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 390/1000
+Average Reward: -468.86
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 390/1000
+Average Reward: -454.78
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 385/1000
+Average Reward: -544.04
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 390/1000
+Average Reward: -438.17
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 395/1000
+Average Reward: -394.32
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 395/1000
+Average Reward: -450.75
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 395/1000
+Average Reward: -456.53
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 390/1000
+Average Reward: -538.18
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 395/1000
+Average Reward: -447.71
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 400/1000
+Average Reward: -399.82
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 400/1000
+Average Reward: -442.13
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 400/1000
+Average Reward: -466.08
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 395/1000
+Average Reward: -542.37
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 400/1000
+Average Reward: -445.10
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 405/1000
+Average Reward: -400.09
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 405/1000
+Average Reward: -447.38
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 405/1000
+Average Reward: -477.47
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 405/1000
+Average Reward: -428.98
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 400/1000
+Average Reward: -552.86
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 410/1000
+Average Reward: -405.01
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 410/1000
+Average Reward: -450.40
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 410/1000
+Average Reward: -484.01
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 410/1000
+Average Reward: -423.05
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 405/1000
+Average Reward: -547.21
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 415/1000
+Average Reward: -416.00
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 415/1000
+Average Reward: -446.19
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 415/1000
+Average Reward: -495.81
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 415/1000
+Average Reward: -423.57
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 410/1000
+Average Reward: -557.64
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 420/1000
+Average Reward: -420.50
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 420/1000
+Average Reward: -444.44
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 420/1000
+Average Reward: -498.81
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 420/1000
+Average Reward: -426.33
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 415/1000
+Average Reward: -574.32
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 425/1000
+Average Reward: -423.11
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 425/1000
+Average Reward: -447.92
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 425/1000
+Average Reward: -496.82
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 425/1000
+Average Reward: -425.28
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 420/1000
+Average Reward: -577.80
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 430/1000
+Average Reward: -423.22
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 430/1000
+Average Reward: -443.74
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 430/1000
+Average Reward: -494.52
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 430/1000
+Average Reward: -434.30
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 425/1000
+Average Reward: -584.05
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 435/1000
+Average Reward: -424.20
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 435/1000
+Average Reward: -439.05
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 435/1000
+Average Reward: -485.82
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 435/1000
+Average Reward: -443.27
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 430/1000
+Average Reward: -587.59
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 440/1000
+Average Reward: -426.16
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 440/1000
+Average Reward: -435.27
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 440/1000
+Average Reward: -481.85
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 440/1000
+Average Reward: -445.53
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 435/1000
+Average Reward: -587.11
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 445/1000
+Average Reward: -427.06
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 445/1000
+Average Reward: -433.13
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 445/1000
+Average Reward: -473.15
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 445/1000
+Average Reward: -433.83
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 440/1000
+Average Reward: -595.37
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 450/1000
+Average Reward: -429.80
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 450/1000
+Average Reward: -424.25
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 450/1000
+Average Reward: -470.12
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 450/1000
+Average Reward: -427.96
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 455/1000
+Average Reward: -430.14
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 445/1000
+Average Reward: -608.62
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 455/1000
+Average Reward: -427.46
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 455/1000
+Average Reward: -468.07
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 455/1000
+Average Reward: -430.32
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 460/1000
+Average Reward: -429.15
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 450/1000
+Average Reward: -599.47
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 460/1000
+Average Reward: -425.55
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 460/1000
+Average Reward: -481.95
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 460/1000
+Average Reward: -436.48
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 465/1000
+Average Reward: -425.71
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 455/1000
+Average Reward: -598.33
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 465/1000
+Average Reward: -422.16
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 465/1000
+Average Reward: -487.37
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 465/1000
+Average Reward: -442.11
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 470/1000
+Average Reward: -439.50
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 460/1000
+Average Reward: -609.45
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 470/1000
+Average Reward: -422.48
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 470/1000
+Average Reward: -485.12
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 470/1000
+Average Reward: -451.76
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 475/1000
+Average Reward: -444.17
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 465/1000
+Average Reward: -603.12
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 475/1000
+Average Reward: -425.30
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 475/1000
+Average Reward: -489.46
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 475/1000
+Average Reward: -460.38
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 480/1000
+Average Reward: -449.39
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 470/1000
+Average Reward: -600.17
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 480/1000
+Average Reward: -421.21
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 480/1000
+Average Reward: -497.32
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 480/1000
+Average Reward: -468.61
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 485/1000
+Average Reward: -462.19
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 475/1000
+Average Reward: -583.35
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 485/1000
+Average Reward: -426.54
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 485/1000
+Average Reward: -504.83
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 485/1000
+Average Reward: -476.22
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 490/1000
+Average Reward: -469.48
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 490/1000
+Average Reward: -427.37
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 480/1000
+Average Reward: -580.39
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 490/1000
+Average Reward: -522.75
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 490/1000
+Average Reward: -483.77
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 495/1000
+Average Reward: -483.12
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 495/1000
+Average Reward: -429.88
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 485/1000
+Average Reward: -589.47
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 495/1000
+Average Reward: -529.54
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 495/1000
+Average Reward: -492.83
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 500/1000
+Average Reward: -488.90
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 500/1000
+Average Reward: -431.19
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 490/1000
+Average Reward: -599.56
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 500/1000
+Average Reward: -523.12
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 500/1000
+Average Reward: -505.53
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 505/1000
+Average Reward: -502.35
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 505/1000
+Average Reward: -425.15
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 495/1000
+Average Reward: -602.78
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 505/1000
+Average Reward: -514.18
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 505/1000
+Average Reward: -532.59
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 510/1000
+Average Reward: -416.24
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 510/1000
+Average Reward: -517.09
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 500/1000
+Average Reward: -601.82
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 510/1000
+Average Reward: -506.30
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 515/1000
+Average Reward: -416.05
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 510/1000
+Average Reward: -552.18
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 515/1000
+Average Reward: -529.51
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 505/1000
+Average Reward: -604.04
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 515/1000
+Average Reward: -497.41
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 520/1000
+Average Reward: -408.56
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 515/1000
+Average Reward: -569.45
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 510/1000
+Average Reward: -586.94
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 520/1000
+Average Reward: -543.65
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 520/1000
+Average Reward: -494.66
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 525/1000
+Average Reward: -402.47
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 520/1000
+Average Reward: -574.24
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 515/1000
+Average Reward: -565.98
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 525/1000
+Average Reward: -564.17
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 525/1000
+Average Reward: -492.22
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 530/1000
+Average Reward: -401.96
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 525/1000
+Average Reward: -579.26
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 520/1000
+Average Reward: -551.17
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 530/1000
+Average Reward: -580.26
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 530/1000
+Average Reward: -488.96
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 535/1000
+Average Reward: -404.02
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 525/1000
+Average Reward: -546.69
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 530/1000
+Average Reward: -589.17
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 535/1000
+Average Reward: -597.77
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 535/1000
+Average Reward: -487.97
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 540/1000
+Average Reward: -409.34
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 530/1000
+Average Reward: -541.99
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 535/1000
+Average Reward: -590.86
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 540/1000
+Average Reward: -601.89
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 540/1000
+Average Reward: -489.31
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 545/1000
+Average Reward: -408.05
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 535/1000
+Average Reward: -536.93
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 540/1000
+Average Reward: -594.70
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 545/1000
+Average Reward: -598.43
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 545/1000
+Average Reward: -489.73
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 550/1000
+Average Reward: -407.92
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 540/1000
+Average Reward: -526.46
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 545/1000
+Average Reward: -606.06
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 550/1000
+Average Reward: -597.18
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 550/1000
+Average Reward: -481.83
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 555/1000
+Average Reward: -411.74
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 545/1000
+Average Reward: -513.22
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 550/1000
+Average Reward: -605.10
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 555/1000
+Average Reward: -605.42
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 555/1000
+Average Reward: -472.88
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 560/1000
+Average Reward: -412.92
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 550/1000
+Average Reward: -512.78
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 555/1000
+Average Reward: -621.88
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 560/1000
+Average Reward: -608.49
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 560/1000
+Average Reward: -458.74
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 565/1000
+Average Reward: -411.73
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 555/1000
+Average Reward: -508.67
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 565/1000
+Average Reward: -609.11
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 560/1000
+Average Reward: -632.02
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 565/1000
+Average Reward: -448.36
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 570/1000
+Average Reward: -409.06
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 560/1000
+Average Reward: -488.15
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 570/1000
+Average Reward: -441.50
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 570/1000
+Average Reward: -603.41
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 565/1000
+Average Reward: -647.94
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 575/1000
+Average Reward: -402.98
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 565/1000
+Average Reward: -480.59
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 575/1000
+Average Reward: -436.22
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 575/1000
+Average Reward: -613.54
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 570/1000
+Average Reward: -650.80
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 580/1000
+Average Reward: -402.35
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 570/1000
+Average Reward: -474.51
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 580/1000
+Average Reward: -428.36
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 580/1000
+Average Reward: -620.41
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 575/1000
+Average Reward: -654.39
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 585/1000
+Average Reward: -401.25
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 575/1000
+Average Reward: -477.97
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 585/1000
+Average Reward: -435.12
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 585/1000
+Average Reward: -627.78
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 580/1000
+Average Reward: -679.76
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 590/1000
+Average Reward: -408.70
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 580/1000
+Average Reward: -480.37
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 590/1000
+Average Reward: -419.32
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 590/1000
+Average Reward: -642.47
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 585/1000
+Average Reward: -701.41
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 595/1000
+Average Reward: -417.00
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 585/1000
+Average Reward: -472.88
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 595/1000
+Average Reward: -409.49
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 595/1000
+Average Reward: -645.52
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 590/1000
+Average Reward: -726.59
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 600/1000
+Average Reward: -425.79
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 590/1000
+Average Reward: -463.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 600/1000
+Average Reward: -407.16
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 600/1000
+Average Reward: -644.28
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 595/1000
+Average Reward: -726.33
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 605/1000
+Average Reward: -439.63
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 595/1000
+Average Reward: -455.35
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 605/1000
+Average Reward: -403.08
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 605/1000
+Average Reward: -642.09
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 600/1000
+Average Reward: -725.25
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 610/1000
+Average Reward: -453.37
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 600/1000
+Average Reward: -448.19
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 610/1000
+Average Reward: -402.62
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 610/1000
+Average Reward: -635.17
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 605/1000
+Average Reward: -705.81
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 615/1000
+Average Reward: -461.92
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 605/1000
+Average Reward: -446.04
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 615/1000
+Average Reward: -405.38
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 615/1000
+Average Reward: -631.06
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 610/1000
+Average Reward: -689.28
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 620/1000
+Average Reward: -462.06
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 610/1000
+Average Reward: -461.49
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 620/1000
+Average Reward: -408.98
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 620/1000
+Average Reward: -622.33
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 615/1000
+Average Reward: -671.55
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 625/1000
+Average Reward: -460.51
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 615/1000
+Average Reward: -472.28
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 625/1000
+Average Reward: -411.14
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 625/1000
+Average Reward: -608.26
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 620/1000
+Average Reward: -666.64
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 630/1000
+Average Reward: -456.58
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 620/1000
+Average Reward: -486.54
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 630/1000
+Average Reward: -418.61
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 630/1000
+Average Reward: -592.13
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 625/1000
+Average Reward: -665.88
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 635/1000
+Average Reward: -453.96
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 625/1000
+Average Reward: -496.31
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 635/1000
+Average Reward: -426.37
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 635/1000
+Average Reward: -573.84
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 630/1000
+Average Reward: -653.23
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 640/1000
+Average Reward: -452.22
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 630/1000
+Average Reward: -500.00
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 640/1000
+Average Reward: -430.25
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 640/1000
+Average Reward: -569.23
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 635/1000
+Average Reward: -645.41
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 645/1000
+Average Reward: -459.00
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 635/1000
+Average Reward: -505.12
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 645/1000
+Average Reward: -436.17
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 645/1000
+Average Reward: -570.25
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 640/1000
+Average Reward: -639.20
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 650/1000
+Average Reward: -468.45
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 640/1000
+Average Reward: -513.77
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 650/1000
+Average Reward: -440.70
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 650/1000
+Average Reward: -565.21
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 645/1000
+Average Reward: -628.97
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 655/1000
+Average Reward: -458.72
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 645/1000
+Average Reward: -506.16
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 655/1000
+Average Reward: -446.84
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 655/1000
+Average Reward: -558.08
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 650/1000
+Average Reward: -626.56
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 660/1000
+Average Reward: -454.24
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 650/1000
+Average Reward: -497.05
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 660/1000
+Average Reward: -455.05
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 660/1000
+Average Reward: -555.50
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 655/1000
+Average Reward: -611.99
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 665/1000
+Average Reward: -452.35
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 655/1000
+Average Reward: -493.75
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 665/1000
+Average Reward: -463.91
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 665/1000
+Average Reward: -554.27
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 660/1000
+Average Reward: -599.46
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 670/1000
+Average Reward: -451.20
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 660/1000
+Average Reward: -487.97
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 670/1000
+Average Reward: -472.63
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 670/1000
+Average Reward: -540.73
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 665/1000
+Average Reward: -590.26
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 675/1000
+Average Reward: -453.01
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 665/1000
+Average Reward: -488.63
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 675/1000
+Average Reward: -480.48
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 675/1000
+Average Reward: -531.27
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 680/1000
+Average Reward: -457.59
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 670/1000
+Average Reward: -590.55
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 670/1000
+Average Reward: -495.41
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 680/1000
+Average Reward: -491.66
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 680/1000
+Average Reward: -521.31
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 685/1000
+Average Reward: -462.52
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 675/1000
+Average Reward: -583.13
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 675/1000
+Average Reward: -494.81
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 685/1000
+Average Reward: -487.46
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 685/1000
+Average Reward: -505.63
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 690/1000
+Average Reward: -460.38
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 680/1000
+Average Reward: -553.45
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 680/1000
+Average Reward: -505.32
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 690/1000
+Average Reward: -497.44
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 690/1000
+Average Reward: -489.72
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 695/1000
+Average Reward: -457.87
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 685/1000
+Average Reward: -533.14
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 685/1000
+Average Reward: -511.42
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 695/1000
+Average Reward: -506.20
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 695/1000
+Average Reward: -477.52
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 690/1000
+Average Reward: -507.87
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 700/1000
+Average Reward: -469.70
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 690/1000
+Average Reward: -526.36
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 700/1000
+Average Reward: -504.88
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 700/1000
+Average Reward: -469.14
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 695/1000
+Average Reward: -494.02
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 705/1000
+Average Reward: -483.26
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 705/1000
+Average Reward: -508.41
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 695/1000
+Average Reward: -543.13
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 705/1000
+Average Reward: -459.14
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 700/1000
+Average Reward: -483.27
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 710/1000
+Average Reward: -484.63
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 710/1000
+Average Reward: -510.42
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 700/1000
+Average Reward: -549.15
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 710/1000
+Average Reward: -444.81
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 705/1000
+Average Reward: -480.47
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 715/1000
+Average Reward: -482.24
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 715/1000
+Average Reward: -508.90
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 715/1000
+Average Reward: -428.49
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 705/1000
+Average Reward: -549.60
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 710/1000
+Average Reward: -481.90
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 720/1000
+Average Reward: -492.17
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 720/1000
+Average Reward: -504.38
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 720/1000
+Average Reward: -425.87
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 710/1000
+Average Reward: -558.09
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 715/1000
+Average Reward: -488.42
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 725/1000
+Average Reward: -494.74
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 725/1000
+Average Reward: -504.02
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 725/1000
+Average Reward: -419.56
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 715/1000
+Average Reward: -567.68
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 720/1000
+Average Reward: -486.42
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 730/1000
+Average Reward: -497.01
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 730/1000
+Average Reward: -506.71
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 730/1000
+Average Reward: -415.06
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 720/1000
+Average Reward: -584.01
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 725/1000
+Average Reward: -484.44
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 735/1000
+Average Reward: -502.59
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 735/1000
+Average Reward: -413.62
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 735/1000
+Average Reward: -517.91
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 730/1000
+Average Reward: -483.42
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 725/1000
+Average Reward: -604.34
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 740/1000
+Average Reward: -502.56
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 740/1000
+Average Reward: -417.39
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 740/1000
+Average Reward: -515.71
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 735/1000
+Average Reward: -480.58
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 730/1000
+Average Reward: -627.33
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 745/1000
+Average Reward: -499.87
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 745/1000
+Average Reward: -414.04
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 745/1000
+Average Reward: -515.17
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 740/1000
+Average Reward: -479.57
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 750/1000
+Average Reward: -487.85
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 735/1000
+Average Reward: -643.13
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 750/1000
+Average Reward: -419.53
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 750/1000
+Average Reward: -522.80
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 745/1000
+Average Reward: -479.60
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 755/1000
+Average Reward: -490.12
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 740/1000
+Average Reward: -644.61
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 755/1000
+Average Reward: -423.75
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 755/1000
+Average Reward: -531.09
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 750/1000
+Average Reward: -477.75
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 760/1000
+Average Reward: -495.82
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 745/1000
+Average Reward: -650.46
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 760/1000
+Average Reward: -424.41
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 760/1000
+Average Reward: -533.70
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 755/1000
+Average Reward: -479.03
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 765/1000
+Average Reward: -497.07
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 750/1000
+Average Reward: -667.19
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 765/1000
+Average Reward: -424.50
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 765/1000
+Average Reward: -539.64
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 760/1000
+Average Reward: -484.17
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 770/1000
+Average Reward: -499.40
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 755/1000
+Average Reward: -672.75
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 770/1000
+Average Reward: -428.43
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 770/1000
+Average Reward: -544.99
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 765/1000
+Average Reward: -475.64
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 775/1000
+Average Reward: -496.80
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 760/1000
+Average Reward: -685.61
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 775/1000
+Average Reward: -427.15
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 775/1000
+Average Reward: -541.46
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 770/1000
+Average Reward: -463.18
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 780/1000
+Average Reward: -493.54
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 765/1000
+Average Reward: -694.22
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 780/1000
+Average Reward: -428.33
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 780/1000
+Average Reward: -544.77
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 775/1000
+Average Reward: -459.50
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 785/1000
+Average Reward: -490.49
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 770/1000
+Average Reward: -701.14
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 785/1000
+Average Reward: -425.00
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 785/1000
+Average Reward: -548.28
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 790/1000
+Average Reward: -488.30
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 780/1000
+Average Reward: -466.58
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 775/1000
+Average Reward: -712.15
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 790/1000
+Average Reward: -419.98
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 790/1000
+Average Reward: -540.41
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 795/1000
+Average Reward: -490.00
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 785/1000
+Average Reward: -467.05
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 780/1000
+Average Reward: -709.77
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 795/1000
+Average Reward: -410.47
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 795/1000
+Average Reward: -532.16
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 800/1000
+Average Reward: -472.20
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 790/1000
+Average Reward: -474.00
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 785/1000
+Average Reward: -713.54
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 800/1000
+Average Reward: -417.62
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 800/1000
+Average Reward: -533.38
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 805/1000
+Average Reward: -445.75
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 795/1000
+Average Reward: -475.82
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 790/1000
+Average Reward: -703.08
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 805/1000
+Average Reward: -423.78
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 805/1000
+Average Reward: -531.18
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 810/1000
+Average Reward: -434.49
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 800/1000
+Average Reward: -479.95
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 795/1000
+Average Reward: -693.66
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 810/1000
+Average Reward: -433.94
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 810/1000
+Average Reward: -529.04
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 815/1000
+Average Reward: -433.11
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 805/1000
+Average Reward: -482.92
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 800/1000
+Average Reward: -694.51
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 815/1000
+Average Reward: -449.73
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 815/1000
+Average Reward: -531.56
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 820/1000
+Average Reward: -424.11
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 810/1000
+Average Reward: -485.71
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 805/1000
+Average Reward: -694.47
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 820/1000
+Average Reward: -457.38
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 820/1000
+Average Reward: -532.82
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 825/1000
+Average Reward: -419.12
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 815/1000
+Average Reward: -487.56
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 810/1000
+Average Reward: -685.45
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 825/1000
+Average Reward: -471.18
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 825/1000
+Average Reward: -534.86
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 830/1000
+Average Reward: -422.78
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 820/1000
+Average Reward: -495.52
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 815/1000
+Average Reward: -676.43
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 830/1000
+Average Reward: -477.85
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 830/1000
+Average Reward: -526.02
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 835/1000
+Average Reward: -431.31
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 825/1000
+Average Reward: -496.46
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 820/1000
+Average Reward: -659.08
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 835/1000
+Average Reward: -489.43
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 835/1000
+Average Reward: -507.92
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 840/1000
+Average Reward: -435.84
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 830/1000
+Average Reward: -497.12
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 825/1000
+Average Reward: -642.63
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 840/1000
+Average Reward: -497.10
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 840/1000
+Average Reward: -507.92
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 845/1000
+Average Reward: -434.67
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 835/1000
+Average Reward: -494.77
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 845/1000
+Average Reward: -502.49
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 845/1000
+Average Reward: -503.43
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 830/1000
+Average Reward: -633.56
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 850/1000
+Average Reward: -440.69
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 840/1000
+Average Reward: -492.57
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 850/1000
+Average Reward: -487.79
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 850/1000
+Average Reward: -502.50
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 835/1000
+Average Reward: -629.36
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 855/1000
+Average Reward: -440.80
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 845/1000
+Average Reward: -496.99
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 855/1000
+Average Reward: -474.89
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 855/1000
+Average Reward: -503.79
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 840/1000
+Average Reward: -633.01
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 860/1000
+Average Reward: -437.48
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 850/1000
+Average Reward: -496.21
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 860/1000
+Average Reward: -462.92
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 860/1000
+Average Reward: -504.14
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 845/1000
+Average Reward: -649.42
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 865/1000
+Average Reward: -442.52
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 855/1000
+Average Reward: -493.70
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 865/1000
+Average Reward: -449.66
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 865/1000
+Average Reward: -508.68
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 850/1000
+Average Reward: -648.96
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 870/1000
+Average Reward: -450.61
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 860/1000
+Average Reward: -485.43
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 870/1000
+Average Reward: -443.52
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 870/1000
+Average Reward: -505.53
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 855/1000
+Average Reward: -651.32
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 875/1000
+Average Reward: -462.90
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 865/1000
+Average Reward: -479.30
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 875/1000
+Average Reward: -500.19
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 875/1000
+Average Reward: -447.27
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 860/1000
+Average Reward: -642.65
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 870/1000
+Average Reward: -480.68
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 880/1000
+Average Reward: -469.66
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 880/1000
+Average Reward: -494.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 880/1000
+Average Reward: -446.13
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 865/1000
+Average Reward: -639.56
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 875/1000
+Average Reward: -479.33
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 885/1000
+Average Reward: -472.23
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 885/1000
+Average Reward: -496.64
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 885/1000
+Average Reward: -440.29
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 870/1000
+Average Reward: -630.62
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 880/1000
+Average Reward: -474.62
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 890/1000
+Average Reward: -477.67
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 890/1000
+Average Reward: -491.34
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 890/1000
+Average Reward: -441.45
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 875/1000
+Average Reward: -618.28
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 885/1000
+Average Reward: -464.78
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 895/1000
+Average Reward: -475.47
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 895/1000
+Average Reward: -492.38
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 895/1000
+Average Reward: -443.33
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 880/1000
+Average Reward: -606.66
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 890/1000
+Average Reward: -455.98
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 900/1000
+Average Reward: -474.04
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 900/1000
+Average Reward: -484.25
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 900/1000
+Average Reward: -451.61
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 885/1000
+Average Reward: -592.90
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 895/1000
+Average Reward: -452.73
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 905/1000
+Average Reward: -473.60
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 905/1000
+Average Reward: -477.03
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 905/1000
+Average Reward: -454.51
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 890/1000
+Average Reward: -587.87
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 900/1000
+Average Reward: -447.07
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 910/1000
+Average Reward: -470.70
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 910/1000
+Average Reward: -480.19
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 910/1000
+Average Reward: -464.57
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 895/1000
+Average Reward: -581.42
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 915/1000
+Average Reward: -469.66
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 905/1000
+Average Reward: -442.34
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 915/1000
+Average Reward: -479.23
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 915/1000
+Average Reward: -467.86
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 900/1000
+Average Reward: -571.61
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 920/1000
+Average Reward: -469.62
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 910/1000
+Average Reward: -441.66
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 920/1000
+Average Reward: -463.75
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 920/1000
+Average Reward: -476.67
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 905/1000
+Average Reward: -565.43
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 925/1000
+Average Reward: -472.16
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 915/1000
+Average Reward: -444.44
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 925/1000
+Average Reward: -456.74
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 925/1000
+Average Reward: -479.84
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 910/1000
+Average Reward: -555.51
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 930/1000
+Average Reward: -473.23
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 920/1000
+Average Reward: -445.33
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 930/1000
+Average Reward: -453.98
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 930/1000
+Average Reward: -493.95
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 915/1000
+Average Reward: -548.95
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 935/1000
+Average Reward: -464.73
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 925/1000
+Average Reward: -442.09
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 935/1000
+Average Reward: -442.35
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 935/1000
+Average Reward: -509.80
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 920/1000
+Average Reward: -545.71
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 940/1000
+Average Reward: -459.43
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 930/1000
+Average Reward: -446.23
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 940/1000
+Average Reward: -425.48
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 940/1000
+Average Reward: -521.78
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 925/1000
+Average Reward: -535.05
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 945/1000
+Average Reward: -456.41
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 935/1000
+Average Reward: -460.41
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 945/1000
+Average Reward: -420.06
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 945/1000
+Average Reward: -531.93
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 930/1000
+Average Reward: -516.83
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 950/1000
+Average Reward: -460.08
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 940/1000
+Average Reward: -461.50
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 950/1000
+Average Reward: -416.80
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 935/1000
+Average Reward: -508.44
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 950/1000
+Average Reward: -551.36
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 955/1000
+Average Reward: -465.58
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 945/1000
+Average Reward: -459.18
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 955/1000
+Average Reward: -410.78
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 940/1000
+Average Reward: -492.82
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 955/1000
+Average Reward: -562.50
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 960/1000
+Average Reward: -471.57
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 950/1000
+Average Reward: -460.11
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 960/1000
+Average Reward: -410.08
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 945/1000
+Average Reward: -467.43
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 965/1000
+Average Reward: -469.06
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 960/1000
+Average Reward: -574.65
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 955/1000
+Average Reward: -460.00
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 965/1000
+Average Reward: -404.97
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 950/1000
+Average Reward: -453.60
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 970/1000
+Average Reward: -465.40
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 960/1000
+Average Reward: -460.52
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 965/1000
+Average Reward: -591.00
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 970/1000
+Average Reward: -407.27
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 955/1000
+Average Reward: -439.44
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 975/1000
+Average Reward: -460.67
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 965/1000
+Average Reward: -463.86
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 970/1000
+Average Reward: -591.40
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 975/1000
+Average Reward: -411.66
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 960/1000
+Average Reward: -434.13
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 970/1000
+Average Reward: -462.17
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 980/1000
+Average Reward: -462.71
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 975/1000
+Average Reward: -580.97
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 980/1000
+Average Reward: -410.10
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 965/1000
+Average Reward: -429.38
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 975/1000
+Average Reward: -461.49
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 985/1000
+Average Reward: -454.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 980/1000
+Average Reward: -585.45
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 985/1000
+Average Reward: -407.45
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 970/1000
+Average Reward: -425.19
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 980/1000
+Average Reward: -457.52
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 990/1000
+Average Reward: -449.40
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 985/1000
+Average Reward: -591.69
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 990/1000
+Average Reward: -418.93
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 975/1000
+Average Reward: -426.95
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 985/1000
+Average Reward: -457.45
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 995/1000
+Average Reward: -443.41
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 990/1000
+Average Reward: -606.29
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 995/1000
+Average Reward: -425.11
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 980/1000
+Average Reward: -424.31
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 990/1000
+Average Reward: -450.47
+Epsilon: 0.010
+-------------------
+PID 17930 - Episode 1000/1000
+Average Reward: -452.80
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 995/1000
+Average Reward: -622.69
+Epsilon: 0.010
+-------------------
+PID 17929 - Episode 1000/1000
+Average Reward: -430.53
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 985/1000
+Average Reward: -431.10
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 995/1000
+Average Reward: -447.45
+Epsilon: 0.010
+-------------------
+PID 17928 - Episode 1000/1000
+Average Reward: -619.72
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 990/1000
+Average Reward: -431.18
+Epsilon: 0.010
+-------------------
+PID 17932 - Episode 1000/1000
+Average Reward: -448.30
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 995/1000
+Average Reward: -424.89
+Epsilon: 0.010
+-------------------
+PID 17931 - Episode 1000/1000
+Average Reward: -421.09
+Epsilon: 0.010
+-------------------
