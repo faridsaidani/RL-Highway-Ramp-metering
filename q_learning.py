@@ -7,7 +7,7 @@ from datetime import datetime
 
 class QLearningAgent:
     def __init__(self, 
-                 state_dims=9,        # Dimensionality of state space
+                 state_dims=8,        # Dimensionality of state space
                  n_actions=2,         # Number of possible actions
                  learning_rate=0.1,   
                  gamma=0.95,          # Discount factor
@@ -67,7 +67,7 @@ class QLearningAgent:
         # Decay epsilon
         self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
     
-    def train(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None):
+    def train(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, checkpoint_interval=50):
         """Train the Q-learning agent"""
         for episode in range(n_episodes):
             state = env.reset()
@@ -105,6 +105,12 @@ class QLearningAgent:
                 print(f"Average Reward: {avg_reward:.2f}")
                 print(f"Epsilon: {self.epsilon:.3f}")
                 print("-------------------")
+            
+            # Save checkpoint
+            if (episode + 1) % checkpoint_interval == 0:
+                checkpoint_path = f'{self.checkpoints_dir}/q_learning_checkpoint_{episode + 1}.pkl'
+                self.save(checkpoint_path)
+                print(f"Checkpoint saved at episode {episode + 1}")
     
     def save(self, filepath):
         """Save the trained agent"""
@@ -129,6 +135,6 @@ class QLearningAgent:
         self.episode_rewards = save_dict['episode_rewards']
         self.avg_rewards = save_dict['avg_rewards']
     
-    def continue_training(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None):
+    def continue_training(self, env, n_episodes=1000, max_steps=3600, pid=None, lock=None, checkpoint_interval=100):
         """Continue training the Q-learning agent"""
-        self.train(env, n_episodes, max_steps, pid, lock)
+        self.train(env, n_episodes, max_steps, pid, lock, checkpoint_interval)

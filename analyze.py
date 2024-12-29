@@ -66,7 +66,7 @@ def analyze_rewards(csv_file):
     # Plot mean and median rewards over all PIDs in a separate figure
     fig, ax = plt.subplots(figsize=(12, 6))
     ax.plot(grouped_by_episode['Episode'], grouped_by_episode['mean'], label='Mean Reward', marker='o')
-    ax.plot(grouped_by_episode['Episode'], grouped_by_episode['median'], label='Median Reward', marker='x')
+    # ax.plot(grouped_by_episode['Episode'], grouped_by_episode['median'], label='Median Reward', marker='x')
     ax.plot(grouped_by_episode['Episode'], grouped_by_episode['Moving_Avg'], label='Mean Moving Avg', linestyle='--')
     
     ax.set_title('Mean and Median Rewards per Episode over All PIDs')
