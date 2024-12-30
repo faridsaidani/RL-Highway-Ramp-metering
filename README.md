@@ -50,17 +50,6 @@ This script trains or continues training a DQN agent for ramp metering. It initi
 - `run_training(gui, pid, lock, model_path=None, continue_training=False, n_episodes=500, checkpoint_interval=100)`: Initializes the environment, trains the DQN agent, and saves checkpoints.
 - `main(gui, n_runs, model_path=None, continue_training=False, n_episodes=500, checkpoint_interval=100)`: Manages multiple training runs using multiprocessing.
 
-### envWrapper.py
-
-This script defines the `RampMeterEnv` class, which simulates a ramp metering environment using the SUMO traffic simulation software. It includes methods for resetting the environment, stepping through the environment, and calculating rewards.
-
-**Functions:**
-
-- `__init__(self, sumo_env)`: Initializes the ramp metering environment.
-- `reset(self)`: Resets the environment to its initial state.
-- `step(self, action)`: Steps through the environment to simulate time progression.
-- `calculate_reward(self)`: Calculates rewards based on the agent's actions.
-
 ### evaluate_models.py
 
 This script evaluates multiple DQN models for traffic control in the SUMO environment. It runs each model for a specified number of episodes and saves the average rewards to a CSV file.
