@@ -152,16 +152,17 @@ class RampMeterEnv:
         # Heavy penalty if the light is green and there's a vehicle close to the traffic light in the highway
         close_vehicle_penalty = -5.0 if norm_distance < 0.2 and self.current_phase == TrafficLightPhase.GREEN else 0
         
-        return (0.0 * speed_reward + 
+        return (0.1 * speed_reward + 
                 0.5 * queue_penalty + 
                 0.3 * wait_penalty + 
-                0.5 * change_penalty +
-                0.5 * yellow_penalty +
+                # 0.5 * change_penalty +
+                # 0.5 * yellow_penalty +
                 collision_penalty +
-                emergency_braking_penalty +
-                green_light_bonus +
-                red_light_penalty +
-                close_vehicle_penalty)
+                emergency_braking_penalty 
+                # green_light_bonus +
+                # red_light_penalty +
+                # close_vehicle_penalty
+                )
     
     def step(self, action):
         """Execute action in environment with phase handling"""
