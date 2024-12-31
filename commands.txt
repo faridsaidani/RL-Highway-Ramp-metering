@@ -1,0 +1,47 @@
+Training a Q-learning Agent
+To train a Q-learning agent:
+python train.py --n_runs 3 --n_episodes 1000 --gui
+To continue training an existing Q-learning model:
+python train.py --model path/to/trained_model.pkl --continue_training --n_runs 2 --n_episodes 800 --gui
+Training a DQN Agent
+To train a DQN agent:
+python dqn_train.py --n_runs 3 --n_episodes 1000 --gui
+To continue training an existing DQN model:
+python dqn_train.py --model path/to/trained_model.pth --continue_training --n_runs 2 --n_episodes 800 --gui
+Running a Trained Q-learning Agent
+To run a trained Q-learning agent for traffic control:
+python control_traffic.py --model path/to/trained_model.pkl --n_episodes 10 --max_steps 3600 --gui
+Running a Trained DQN Agent
+To run a trained DQN agent for traffic control:
+python dqn_control.py --model path/to/trained_model.pth --n_episodes 10 --max_steps 3600 --gui
+Evaluating Q-learning Models
+To evaluate multiple Q-learning models:
+python evaluate_q_learning_models.py --folder path/to/models --output_csv ql_evaluation_results.csv --n_episodes 10 --max_steps 3600 --gui
+Evaluating DQN Models
+To evaluate multiple DQN models:
+python evaluate_models.py --folder path/to/models --output_csv dqn_evaluation_results.csv --n_episodes 10 --max_steps 3600 --gui
+Testing the Ramp Meter Environment
+To test the ramp meter environment:
+python test_ramp_meter_env.py --n_steps 100 --gui
+Analyzing Rewards
+To analyze rewards from a CSV file:
+python analyze.py path/to/rewards.csv
+Summary of Commands
+Training a Q-learning Agent:
+python train.py --n_runs 3 --n_episodes 1000 --gui
+python train.py --model path/to/trained_model.pkl --continue_training --n_runs 2 --n_episodes 800 --gui
+Training a DQN Agent:
+python dqn_train.py --n_runs 3 --n_episodes 1000 --gui
+python dqn_train.py --model path/to/trained_model.pth --continue_training --n_runs 2 --n_episodes 800 --gui
+Running a Trained Q-learning Agent:
+python control_traffic.py --model path/to/trained_model.pkl --n_episodes 10 --max_steps 3600 --gui
+Running a Trained DQN Agent:
+python dqn_control.py --model path/to/trained_model.pth --n_episodes 10 --max_steps 3600 --gui
+Evaluating Q-learning Models:
+python evaluate_q_learning_models.py --folder path/to/models --output_csv ql_evaluation_results.csv --n_episodes 10 --max_steps 3600 --gui
+Evaluating DQN Models:
+python evaluate_models.py --folder path/to/models --output_csv dqn_evaluation_results.csv --n_episodes 10 --max_steps 3600 --gui
+Testing the Ramp Meter Environment:
+python test_ramp_meter_env.py --n_steps 100 --gui
+Analyzing Rewards:
+python analyze.py path/to/rewards.csv

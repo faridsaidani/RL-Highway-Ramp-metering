@@ -73,15 +73,38 @@ class HighwayEnvironment:
     def generate_route_file(self):
         """Generate route file with traffic flows"""
         with open(self.base_dir / "routes.rou.xml", "w") as routefile:
-            routefile.write("""<?xml version="1.0" encoding="UTF-8"?>
+            routefile.write(f"""<?xml version="1.0" encoding="UTF-8"?>
 <routes>
-    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" lcStrategic="10.0" lcKeepRight="0.1"/>
+    <vType id="car" accel="2.6" decel="4.5" color="red" laneChangeModel="LC2013" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" lcStrategic="10.0" lcKeepRight="0.1"/>
+    <vType id="taxi_sfra" accel="2.6" decel="4.5" color="yellow" laneChangeModel="LC2013" sigma="0.5" length="5" minGap="2.5" maxSpeed="30" lcStrategic="10.0" lcKeepRight="0.1"/>
+    <vType id="truck" length="12.00" maxSpeed="25.00" color="blue" laneChangeModel="LC2013" lcStrategic="1.0" lcSpeedGain="0.8" lcKeepRight="0.4" accel="1.0" decel="3.0" sigma="0.6"/>
+    <vType id="bus" length="12.00" maxSpeed="20.00" color="yellow" laneChangeModel="LC2013" lcStrategic="1.0" lcSpeedGain="0.7" lcKeepRight="0.5" accel="1.2" decel="2.5" sigma="0.5"/>    
+    <vType id="motorcycle" length="2.50" maxSpeed="40.00" color="green" laneChangeModel="LC2013" lcStrategic="1.2" lcSpeedGain="1.2" lcKeepRight="0.1" accel="3.0" decel="4.5" sigma="0.3"/>
+
+    <flow id="highway_flow_taxi" type="taxi_sfra" begin="0" end="3600" period="2" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow_taxi" type="taxi_sfra" begin="0" end="3600" period="30">
+        <route edges="ramp highway2"/>    
+    </flow> 
+    <flow id="highway_flow_truck" type="truck" begin="0" end="3600" period="50" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="highway_flow_bus" type="bus" begin="0" end="3600" period="40" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow> 
+    <flow id="highway_flow_moto" type="motorcycle" begin="0" end="3600" period="10" departLane="random">
+        <route edges="highway1 highway2"/>
+    </flow>
+    <flow id="ramp_flow_moto" type="motorcycle" begin="0" end="3600" period="30">
+        <route edges="ramp highway2"/>    
+    </flow>  
 """)
             # Define multiple flows
             flows = [
-                {"start": 0, "end": 600, "highway_flow": 6000, "ramp_flow": 600},  # Heavy flow at the start
+                {"start": 0, "end": 600, "highway_flow": 4000, "ramp_flow": 600},  # Heavy flow at the start
                 {"start": 600, "end": 1600, "highway_flow": 1000, "ramp_flow": 150},  # Lighter flow
-                {"start": 1600, "end": 2800, "highway_flow": 8000, "ramp_flow": 800},  # Very heavy flow
+                {"start": 1600, "end": 2800, "highway_flow": 6000, "ramp_flow": 800},  # Very heavy flow
                 {"start": 2800, "end": 3600, "highway_flow": 1000, "ramp_flow": 600},  # Lighter flow
             ]
 

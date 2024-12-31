@@ -208,3 +208,19 @@ class RampMeterEnv:
     def close(self):
         """Close the TraCI connection"""
         traci.close()
+    
+    def get_highway_speed(self):
+        """Calculate and return the average highway speed"""
+        if len(self.highway_speeds) == 0:
+            return 0
+        return np.mean(self.highway_speeds)
+    
+    def get_ramp_wait_time(self):
+        """Calculate and return the average ramp wait time"""
+        if len(self.ramp_queue) == 0:
+            return 0
+        ramp_vehicles = traci.edge.getLastStepVehicleIDs("ramp")
+        if not ramp_vehicles:
+            return 0
+        wait_times = [traci.vehicle.getWaitingTime(v) for v in ramp_vehicles]
+        return np.mean(wait_times)
