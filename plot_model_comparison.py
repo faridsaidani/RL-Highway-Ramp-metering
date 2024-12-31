@@ -67,7 +67,7 @@ axes[2].legend()
 plt.tight_layout()
 
 # Save the plot
-plt.savefig('model_comparison_by_episode.png')
+plt.savefig('model_comparison_by_episode_baseline.png')
 
 # Show the plot
 plt.show()
